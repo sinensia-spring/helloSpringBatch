@@ -6,9 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemProcessor;
 
-//@Slf4j
+@Log
 public class PersonItemProcessor implements ItemProcessor<Person, Person> {
-    protected Logger log = LoggerFactory.getLogger(getClass());
     @Override
     public Person process(Person input) throws Exception {
         Person output = new Person();

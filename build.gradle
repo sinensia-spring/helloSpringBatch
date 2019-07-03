@@ -1,6 +1,7 @@
 plugins {
     id 'org.springframework.boot' version '2.1.6.RELEASE'
     id 'java'
+    // Remember to enable Annotation Processing in the IDE!
     id "io.freefair.lombok" version "3.7.5"
 }
 
